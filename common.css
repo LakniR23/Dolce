@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    overflow-x:hidden;
+    font-family:'Ubuntu Condensed',sans-serif;
+    background-image:url(../pics/background/7.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}    
+
+footer {
+    margin:0px;
+    overflow-x:hidden;
+    overflow-y:hidden;;
+}
+
+.footer-section {
+    height:230px;
+    background-color:lightpink;
+    color:black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    font-size:0.8em;
+}
+
+.footer-section > .all {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-top:-4px;
+    height:250px;
+    color:rgb(48, 46, 46);
+}
+
+.footer-section > .all > .logo {
+    filter:brightness(10%);
+    height:auto;
+    width:auto;
+    margin-top:15px;
+    margin-bottom:10px;
+    margin-right:70px;
+    margin-left:50px;
+}
+
+.footer-section > .all > .details {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    gap:50px;
+    padding:20px;
+}
+
+.footer-section > .all > .details > .contact {
+    margin-left:30px;
+    margin-right:40px;
+}
+
+.footer-section > .all > .details > .contact a {
+    color:rgb(48, 46, 46);
+    text-decoration:none;
+    transition:transform 0.5s ease;
+    display:inline-block;
+}
+
+.footer-section > .all > .details > .contact a:hover {
+    color:rgb(48, 46, 46);
+    transform:scale(1.03);
+}
+
+.footer-section > .all > .details > .address a {
+    color:rgb(48, 46, 46);
+    text-decoration:none;
+    transition:transform 0.5s ease;
+    display:inline-block;
+}
+
+.footer-section > .all > .details > .address a:hover {
+    color:rgb(48, 46, 46);
+    transform:scale(1.03);
+}
+
+.footer-section > .all > .links {
+    display:flex;
+   justify-content:space-between;
+   align-items:center;
+}
+
+.footer-section > .all > .links a {
+    font-family:'Ubuntu Condensed',sans-serif;
+    color:rgb(48, 46, 46);
+    text-decoration:none;
+    transition: color 0.5s,letter-spacing 0.5s;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+}
+
+.footer-section > .all > .links a:hover {
+    color:rgb(48, 46, 46);
+    letter-spacing:1px;
+    font-weight:500;
+    transition: color 0.5s,letter-spacing 0.5s;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+}
+
+.footer-section > .all > .social-media {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+}
+
+.footer-section > .all > .social-media i{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+}
+
+.footer-section > .all > .social-media a {
+    color:rgb(48, 46, 46);
+    text-decoration:none;
+    transition: transform 0.5s ease;
+}
+
+.footer-section > .all > .social-media a:hover i{
+    color:rgb(48, 46, 46);
+    letter-spacing:2px;
+    font-weight:650;
+}
+
+.footer-section > .all > .copywrite {
+    font-size:0.8em;
+}

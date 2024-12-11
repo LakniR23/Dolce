@@ -1,0 +1,97 @@
+.navigation {
+    position:relative;
+    height:400px;
+    width:100%;
+    overflow:hidden;
+    font-family:'Ubuntu Condensed',sans-serif;
+}
+
+.navigation > .navigation-background {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-size:fixed;
+    background-repeat:no-repeat;
+    filter:brightness(50%);
+}
+
+.navigation > .content {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.navigation > .content > .heading {
+    margin-right:500px;
+    border:2px solid lightpink;
+    background-color:lightpink;
+    width:160px;
+    text-align:center;
+}
+
+.navigation > .content > .links {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    width:400px;
+}
+
+.navigation > .content > .links a {
+    color:white;
+    width:100px;
+    font-weight:600;
+    display: inline-block;
+    text-decoration:none;
+    transition:0.5s, letter-spacing 0.5s;
+}
+
+.navigation > .content > .links a:hover {
+    letter-spacing:2px;
+    text-align:center;
+}
+
+.about-content {
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    align-items:center;
+    text-align:justify;
+}
+
+.about-content p {
+    width:90vw;
+    font-size:1.1em;
+    line-height:1.5em;
+}
+
+.intro {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px;
+    border:2px solid bisque;
+    background-color: bisque;
+}
+
+.intro > .image img{
+    margin:20px;
+    height:300px;
+    width:auto;
+}
+
+.intro > .chef {
+    margin:20px;
+    text-align:justify;
+    font-size:1.1em;
+    line-height:1.5em;
+}

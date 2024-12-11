@@ -1,0 +1,272 @@
+.navigation {
+    height:200px;
+    background-color:lightpink;
+    color:black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navigation > .left-column-wrapper > .call {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:150px;
+    font-size:0.8em;
+    text-align:center;
+}
+
+.navigation > .left-column-wrapper > .call a, i {
+    color:black;
+    text-decoration:none;
+    transition:transform 0.5s ease;
+}
+
+.navigation > .left-column-wrapper > .call a:hover , i:hover {
+    color:black;
+    transform:scale(1.1);
+}
+
+.navigation > .left-column-wrapper > .call > .phone {
+    margin-left:20px;
+}
+
+.navigation > .left-column-wrapper > .call > .contact {
+    margin-right:20px;
+}
+
+.navigation > .left-column-wrapper > .call > .contact {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+}
+
+.navigation > .right-column-wrapper > .place {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    font-size: 0.8em;
+}
+
+.navigation > .right-column-wrapper > .place > .location {
+    font-size: 1em;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.navigation > .right-column-wrapper > .place > .address {
+    margin-left: 40px;
+}
+
+.navigation > .right-column-wrapper > .place > .address a {
+    display: inline-block; /* Required for transform */
+    color: black;
+    text-decoration: none;
+    transition: transform 0.5s ease; /* Smooth animation */
+}
+
+.navigation > .right-column-wrapper > .place > .address a:hover {
+    transform: scale(1.1);
+}
+
+.navigation > .right-column-wrapper > .place a:hover i {
+    transform: scale(1.1);
+}
+
+
+.navigation > .center-column-wrapper {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width:400px;
+}
+
+.navigation > .center-column-wrapper > .links {
+   width:400px;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   margin-top:20px;
+}
+
+.center-column-wrapper > .links a{
+    font-family:'Ubuntu Condensed',sans-serif;
+    color:black;
+    text-decoration:none;
+    transition: color 0.5s,letter-spacing 0.5s;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+}
+
+.center-column-wrapper > .links a:hover{
+    color:rgb(126, 53, 96);
+    letter-spacing:2px;
+    font-weight:700;
+}
+
+.navigation > .center-column-wrapper > .logo img {
+    width:100px;
+    height:100px;
+    margin-top:0px; 
+    margin-left:20px;
+}
+
+.map {
+    background-color:lightpink;
+}
+
+.background-image-section {
+    background-image:url(../pics/background/cupcake-8510165_1280.webp);
+    height:300px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.features-section {
+    background-color:lightpink;
+    margin-top:-5px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.features-section > .open {
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:center;
+    text-align:center;
+    background-color:white;
+    border-top:10px solid lightpink;
+    border-bottom:5px solid lightpink;
+}
+
+.features-section > .open h2 {
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.features-section > .open p {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.features-section > .columns {
+    margin-left:30px;
+    text-align:center;
+    transition:1s;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:70px;
+    align-items:center;
+    height:300px;
+    width:100%;
+}
+
+.features-section > .columns > .col1,
+.features-section > .columns > .col2,
+.features-section > .columns > .col3 {
+    display:flex;
+    grid-template-columns:1fr;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align:center;
+    align-items:center;
+    border:2px solid rgb(79, 76, 76);
+    height:250px;
+    width:250px;
+    transition:transform 1s ease;
+    margin-left:30px;
+}
+
+.features-section > .columns > .col1 {
+    position:relative;
+}
+
+.features-section > .columns > .col1::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:url(../pics/background/12.jpg);
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.5;
+}
+
+.features-section > .columns > .col2 {
+    position:relative;
+}
+.features-section > .columns > .col2::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:url(../pics/background/10.jpg);
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.5;
+}
+
+.features-section > .columns > .col3 {
+    position:relative;
+}
+.features-section > .columns > .col3::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:url(../pics/background/11.jpg);
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.5;
+}
+
+.features-section > .columns > .col1 > .icon,.text1,.text2,
+.features-section > .columns > .col2 > .icon,.text1,.text2,
+.features-section > .columns > .col3 > .icon,.text1,.text2 {
+    padding-left:20px;
+    padding-right:20px;
+    position:relative;
+}
+
+.features-section > .columns > .col1 > .text1,
+.features-section > .columns > .col2 > .text1,
+.features-section > .columns > .col3 > .text1 {
+    font-weight:700;
+    font-size:1.5em;
+}
+
+.features-section > .columns > .col1 > .text2,
+.features-section > .columns > .col2 > .text2,
+.features-section > .columns > .col3 > .text2 {
+    font-weight:650;
+}
+
+.features-section > .columns > .col1 > .icon:nth-child(1), 
+.features-section > .columns > .col2 > .icon:nth-child(1),
+.features-section > .columns > .col3 > .icon:nth-child(1) {
+    font-size:3em;
+    margin-top:20px;
+}
+
+.features-section > .columns > .col1:hover,
+.features-section > .columns > .col2:hover,
+.features-section > .columns > .col3:hover {
+    border:2px solid black;
+    transform:scale(1.03); 
+    box-shadow:0px 8px 2px 2px rgba(83, 81, 81, 0.58);   
+}
